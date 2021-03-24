@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <title>Algorithms Explained | Ron Joshi</title>
+        <link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+        <script src="js/particles.js"></script>
+
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+
+        <link rel="stylesheet" href="highlight/styles/atom-one-dark.css">
+        <script src="highlight/highlight.pack.js"></script>
+        <script>hljs.highlightAll();</script>
+
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/jquery.typist.js"></script>
+    </head>
+    <body>
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a class="active" href="algorithms-explained.html">Algorithms Explained</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div id="particle-div">
+            <p id="name-title">Ron Joshi</p>
+            <p class="typist"></p>
+        </div>
+
+        <div id="wrapper">
+            <div id="column">
+                <br>
+                <h1>Algorithms Explained</h1>
+                <h3>This is a website in which I describe algorithms that I wrote to solve a specific issue/problem. I try to make it as comprehensive as possible in a blog-style format, so if you have any suggestions on any changes I can make to make these explanations more understandable, please don't hesitate to reach out and do so.</h3>
+                <p>I will continue to add to this website as time permits.</p>
+                <br>
+
+                <div class="project-container">
+                    <a class="project-button" href="studying-for-exams.html"><h2>Studying for exams (Kattis problem)</h2></a>
+                    <p>You are taking \(N\) exams, with \(T\) total hours to study. For each subject \(i\) (from 1-\(N\)), you're given the function \(f_i(t) = a_{i}t^{2} + b_{i}t + c_{i}\), which outputs an exam score from 0-100, where the input \(t\) is the amount of hours studied for this test.</p>
+                    <p>From the total time \(T\) given, you're given the task of alotting a certain time to each exam in order to maximize the average exam scores of all \(N\) exams.</p>
+                    <p>Note that the functions \(f_i(t)\) are non-decreasing on the interval \([0, T]\), and that fractions of hours can be alotted to each subject; it doesn't have to be whole hours.</p>
+                    <p>The inputs are given by this format: the first line contains the integers \(N\) and \(T\) separated by a space, with \(N\) being anywhere between 1-10 (inclusive) and \(T\) being anywhere between 1-240 (inclusive)
+                    Each consecutive \(N\) lines (one for each subject 1 through \(N\)) has 3 numbers, \(a_i\), \(b_i\), and \(c_i\), corresponding to the function \(f_i(t)\).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            particlesJS.load('particle-div', 'js/particlesjs-config.json');
+        </script>
+        <script src="js/typist.js"></script>
+    </body>
+</html>
