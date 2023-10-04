@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.01ca94b4.css",
-    "main.js": "/static/js/main.7a926d51.js",
+    "main.js": "/static/js/main.25619b10.js",
     "static/js/787.d6d38e1e.chunk.js": "/static/js/787.d6d38e1e.chunk.js",
     "static/media/firstcalc.png": "/static/media/firstcalc.b02788fa427706c25788.png",
     "static/media/5eq.png": "/static/media/5eq.44e449a37d638f2da4c3.png",
@@ -46,10 +46,11 @@
     "static/media/KaTeX_Math-Italic.woff2": "/static/media/KaTeX_Math-Italic.6d3d25f4820d0da8f01f.woff2",
     "static/media/KaTeX_Math-BoldItalic.woff2": "/static/media/KaTeX_Math-BoldItalic.dcbcbd93bac0470b462d.woff2",
     "static/media/KaTeX_Typewriter-Regular.woff": "/static/media/KaTeX_Typewriter-Regular.4c6b94fd1d07f8beff7c.woff",
+    "static/media/gardenofthorns.md": "/static/media/gardenofthorns.e7241f8ad1ecefe33146.md",
     "static/media/KaTeX_SansSerif-Bold.woff": "/static/media/KaTeX_SansSerif-Bold.b9cd458ac6d5889ff9c3.woff",
     "static/media/KaTeX_SansSerif-Italic.woff": "/static/media/KaTeX_SansSerif-Italic.8d593cfaa96238d5e2f8.woff",
     "static/media/KaTeX_Typewriter-Regular.woff2": "/static/media/KaTeX_Typewriter-Regular.c295e7f71970f03c0549.woff2",
-    "static/media/evaluatedivision.md": "/static/media/evaluatedivision.ed5180809954248e97c7.md",
+    "static/media/evaluatedivision.md": "/static/media/evaluatedivision.81f05eb0ac7c04c87976.md",
     "static/media/KaTeX_Fraktur-Bold.woff": "/static/media/KaTeX_Fraktur-Bold.354501bac435c3264834.woff",
     "static/media/KaTeX_Fraktur-Regular.woff": "/static/media/KaTeX_Fraktur-Regular.6fdf0ac577be0ba82a4c.woff",
     "static/media/KaTeX_Caligraphic-Bold.ttf": "/static/media/KaTeX_Caligraphic-Bold.7489a2fbfb9bfe704420.ttf",
@@ -83,11 +84,11 @@
     "static/media/flowerbouquets.md": "/static/media/flowerbouquets.dfe8af393b3519efd310.md",
     "index.html": "/index.html",
     "main.01ca94b4.css.map": "/static/css/main.01ca94b4.css.map",
-    "main.7a926d51.js.map": "/static/js/main.7a926d51.js.map",
+    "main.25619b10.js.map": "/static/js/main.25619b10.js.map",
     "787.d6d38e1e.chunk.js.map": "/static/js/787.d6d38e1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01ca94b4.css",
-    "static/js/main.7a926d51.js"
+    "static/js/main.25619b10.js"
   ]
 }
