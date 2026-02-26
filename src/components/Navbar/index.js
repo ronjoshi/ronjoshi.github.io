@@ -1,30 +1,63 @@
-import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavBtn } from './NavbarElements';
+import React, { useState } from 'react';
+import { Nav, NavLink, HomeNavLink, HomeIcon, Bars, NavMenu } from './NavbarElements';
+import {
+  SidebarContainer,
+  Icon,
+  CloseIcon,
+  SidebarWrapper,
+  SidebarMenu,
+  SidebarLink
+} from './SidebarElements';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return (
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const close = () => {
+    setIsOpen(false);
+  };
+
+  return (
     <>
-        <Nav>
-            <NavLink to="/">
-                <h1>Home</h1>
-            </NavLink>
-            <Bars />
-            <NavMenu>
-                <NavLink to="/projects" activestyle="true">
-                    Projects
-                </NavLink>
-                <NavLink to="/algorithms-explained" activestyle="true">
-                    Algorithms Explained
-                </NavLink>
-                <NavLink to="/contact" activestyle="true">
-                    Contact
-                </NavLink>
-            </NavMenu>
-            <NavBtn></NavBtn>
-        </Nav>
+      <Nav>
+        <Bars onClick={toggle} />
+        <NavMenu>
+          <HomeNavLink to="/">
+            <HomeIcon />
+            Home
+          </HomeNavLink>
+          <NavLink to="/projects">
+            Projects
+          </NavLink>
+          <NavLink to="/contact">
+            Contact
+          </NavLink>
+        </NavMenu>
+      </Nav>
+
+      <SidebarContainer isOpen={isOpen}>
+        <Icon onClick={close}>
+          <CloseIcon />
+        </Icon>
+        <SidebarWrapper>
+          <SidebarMenu>
+            <SidebarLink to="/" onClick={close}>
+              Home
+            </SidebarLink>
+            <SidebarLink to="/projects" onClick={close}>
+              Projects
+            </SidebarLink>
+            <SidebarLink to="/contact" onClick={close}>
+              Contact
+            </SidebarLink>
+          </SidebarMenu>
+        </SidebarWrapper>
+      </SidebarContainer>
     </>
-    );
+  );
 };
 
-export default Navbar
+export default Navbar;
