@@ -32,6 +32,9 @@ const Navbar = () => {
           <NavLink to="/projects">
             Projects
           </NavLink>
+          <NavLink to="/algorithms">
+            Algorithms Explained
+          </NavLink>
           <NavLink to="/contact">
             Contact
           </NavLink>
@@ -49,6 +52,9 @@ const Navbar = () => {
             </SidebarLink>
             <SidebarLink to="/projects" onClick={close}>
               Projects
+            </SidebarLink>
+            <SidebarLink to="/algorithms" onClick={close}>
+              Algorithms Explained
             </SidebarLink>
             <SidebarLink to="/contact" onClick={close}>
               Contact
