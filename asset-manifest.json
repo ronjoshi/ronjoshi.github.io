@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.613b1aa0.css",
-    "main.js": "/static/js/main.4ea6421c.js",
+    "main.js": "/static/js/main.e58869ec.js",
     "static/js/787.b460d880.chunk.js": "/static/js/787.b460d880.chunk.js",
     "static/media/profpic_unc.jpg": "/static/media/profpic_unc.d7016427f0b3ac417dd2.jpg",
     "static/media/gardenofthorns.md": "/static/media/gardenofthorns.6029bab4378e5a493977.md",
@@ -15,11 +15,11 @@
     "static/media/ndim2048.md": "/static/media/ndim2048.619e91cc7603eeafc5c4.md",
     "static/media/basketball.md": "/static/media/basketball.2becb63793d8731b38c3.md",
     "main.613b1aa0.css.map": "/static/css/main.613b1aa0.css.map",
-    "main.4ea6421c.js.map": "/static/js/main.4ea6421c.js.map",
+    "main.e58869ec.js.map": "/static/js/main.e58869ec.js.map",
     "787.b460d880.chunk.js.map": "/static/js/787.b460d880.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.613b1aa0.css",
-    "static/js/main.4ea6421c.js"
+    "static/js/main.e58869ec.js"
   ]
 }
