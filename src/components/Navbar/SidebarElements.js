@@ -67,3 +67,21 @@ export const SidebarLink = styled(NavLink)`
     color: black;
   }
 `;
+
+export const ExternalSidebarLink = styled.a`
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+    color: black;
+  }
+`;

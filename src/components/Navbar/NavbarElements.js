@@ -99,6 +99,32 @@ export const Bars = styled(FaBars)`
   }
 `;
 
+export const ExternalNavLink = styled.a`
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #282c34;
+    text-shadow: none;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
 export const NavMenu = styled.div`
   display: flex;
   align-items: stretch;

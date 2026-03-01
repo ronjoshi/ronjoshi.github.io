@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { Nav, NavLink, HomeNavLink, HomeIcon, Bars, NavMenu } from './NavbarElements';
+import { Nav, NavLink, HomeNavLink, HomeIcon, Bars, NavMenu, ExternalNavLink } from './NavbarElements';
 import {
   SidebarContainer,
   Icon,
   CloseIcon,
   SidebarWrapper,
   SidebarMenu,
-  SidebarLink
+  SidebarLink,
+  ExternalSidebarLink
 } from './SidebarElements';
 
 const Navbar = () => {
@@ -35,6 +36,9 @@ const Navbar = () => {
           <NavLink to="/algorithms">
             Algorithms Explained
           </NavLink>
+          <ExternalNavLink href="https://ronjoshi.notion.site/Class-notes-73b8da0648804510a272ba4a06745fbf?pvs=74" target="_blank" rel="noopener noreferrer">
+            Class notes
+          </ExternalNavLink>
           <NavLink to="/contact">
             Contact
           </NavLink>
@@ -56,6 +60,9 @@ const Navbar = () => {
             <SidebarLink to="/algorithms" onClick={close}>
               Algorithms Explained
             </SidebarLink>
+            <ExternalSidebarLink href="https://ronjoshi.notion.site/Class-notes-73b8da0648804510a272ba4a06745fbf?pvs=74" target="_blank" rel="noopener noreferrer" onClick={close}>
+              Class notes
+            </ExternalSidebarLink>
             <SidebarLink to="/contact" onClick={close}>
               Contact
             </SidebarLink>
